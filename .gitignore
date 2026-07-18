@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Jupyter lab/notebook state files
+*.ipynb_checkpoints/
+
+# Ignore Python's compiled cache (useful alongside Python template)
+__pycache__/
+*.pyc
+
+# Ignore Jupyter's auto-save/history database
+*.db
